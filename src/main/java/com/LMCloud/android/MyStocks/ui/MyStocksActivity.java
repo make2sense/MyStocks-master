@@ -34,7 +34,7 @@ import com.google.android.gms.gcm.PeriodicTask;
 import com.google.android.gms.gcm.Task;
 import com.melnykov.fab.FloatingActionButton;
 import com.LMCloud.android.MyStocks.touch_helper.SimpleItemTouchHelperCallback;
-
+// stockmarket image from http://bizzmarkblog.com/little-business-lesson-mystery-of-the-stock-market/#.V0Z6cZMrKAw
 public class MyStocksActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor>{
 
   /**
