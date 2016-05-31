@@ -7,6 +7,7 @@
     android:orientation="horizontal"
     android:paddingStart="@dimen/activity_horizontal_margin"
     android:paddingEnd="@dimen/activity_horizontal_margin"
+              android:contentDescription="@string/to_detail"
     >
   <TextView
       android:id="@+id/stock_symbol"
@@ -29,7 +30,7 @@
         android:layout_height="wrap_content"
         android:paddingEnd="@dimen/activity_horizontal_margin"
         tools:text="1000.00"
-        />
+        android:paddingRight="@dimen/activity_horizontal_margin"/>
     <TextView
         android:id="@+id/change"
         android:background="@drawable/percent_change_pill"

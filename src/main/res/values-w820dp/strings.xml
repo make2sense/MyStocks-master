@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="range">Duration</string>
+    <string name="week">Past Week</string>
+    <string name="chart_description">You can view the historical stock prices in three different time durations, a week, a month, or a year. Because there is no stocking trading during the weekend, so there will be a maximum of 5 data points for the last week. You may zoom in the chart and drag it.</string>
+</resources>

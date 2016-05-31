@@ -12,4 +12,14 @@
   <string name="network_toast">Uh-oh! This app requires an internet connection</string>
   <string name="invalid_symbol">Symbol Entered Not Found!</string>
   <string name="symbol_added">New Symbol Added Successfully!</string>
+  <string name="range">Duration</string>
+  <string name="week">Past Week</string>
+  <string name="month">Past Month</string>
+  <string name="year">Past Year</string>
+  <string name="range_prompt">Choose duration</string>
+  <string name="empty_list">Not monitoring any stocks.</string>
+  <string name="to_add">Click to add a stock.</string>
+  <string name="to_detail">Click to see the historical quotes of this stock.</string>
+  <string name="can_zoom">You can zoom and drag this chart.</string>
+  <string name="chart_description">You can view the historical stock prices in three different time durations, a week, a month, or a year.</string>
 </resources>

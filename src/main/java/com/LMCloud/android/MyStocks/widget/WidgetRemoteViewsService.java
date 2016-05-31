@@ -70,9 +70,11 @@ public class WidgetRemoteViewsService extends RemoteViewsService {
                 }
                 RemoteViews views = new RemoteViews(getPackageName(),
                         R.layout.widget_list_item);
+
                 views.setTextViewText(R.id.stock_symbol, data.getString(data.getColumnIndex("symbol")));
 
-                views.setTextViewText(R.id.stock_symbol, data.getString(data.getColumnIndex("bid_price")));
+                views.setTextViewText(R.id.bid_price, "$"+data.getString(data.getColumnIndex("bid_price")));
+
                 if (data.getInt(data.getColumnIndex("is_up")) == 1) {
                     views.setInt(R.id.change, "setBackgroundResource",
                             R.drawable.percent_change_pill_green);
